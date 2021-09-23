@@ -3,11 +3,28 @@
     padding: 0;
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*general elements*/
+
+.btn-blue{
+    background-color: #0061ff;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*Start Nav*/
+
 header{
     height: fit-content;
     position: fixed;
-    background-color: blue;
+    top: 0%;
     width: 100%;
+    background-color: white;
 }
 
 .logo{
@@ -15,8 +32,80 @@ header{
     padding: 20px 1%;
 }
 
-.nav-left{
+.nav{
     float: left;
     width: fit-content;
     padding: 20px 1%;
+    text-decoration: none;
+    color: black;    
 }
+
+.nav-right{
+    float: right;
+}
+
+#btn-start{
+    float: right;
+    position: relative;
+    width: fit-content;
+    padding: 20px 1%;
+    /*altezza btn da sistemare*/
+}
+
+.nav:hover{
+    border-bottom: black 3px solid;
+}
+
+/*End Nav*/ 
+
+main{
+    margin-top: 62px;
+}
+
+/*Start Jumbotron*/
+
+.jumbotron-background{
+    background-color: #b4d0e7;
+}
+
+.jumbotron{
+    margin: 0px 15%;
+    padding-top: 40px;
+}
+
+.first-img{
+    float: right;
+    position: relativSe;
+    width: 70%;
+}
+
+.jumbotron h2{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.jumbotron div:first-of-type{
+    margin-bottom: 40px;
+}
+
+#jumbotron-btn{  
+    padding: 10px;
+}
+
+.btn-blue:hover{
+    background-color: #3a85ff;
+}
+
+#jumbotron-underbutton-div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#arrow-down{
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+/*End Jumbotron*/
