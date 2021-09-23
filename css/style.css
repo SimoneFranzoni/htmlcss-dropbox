@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: fit-content;
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+}
+
+.logo{
+    float: left; 
+    padding: 20px 1%;
+}
+
+.nav-left{
+    float: left;
+    width: fit-content;
+    padding: 20px 1%;
+}
