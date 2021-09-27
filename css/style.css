@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .clearfix::after{
@@ -13,6 +14,7 @@
 
 .container{
     margin: auto 20%;
+    float: left;
 }
 
 .btn-blue{
@@ -23,10 +25,10 @@
 }
 
 .btn-white{
-    border: 1px solid black;
     color: black;
     text-decoration: none;
     padding: 10px;
+    background-color: white;
 }
 
 .column{
@@ -134,8 +136,6 @@ main{
 
 .first-block{
     margin-top: 250px;
-    background-color: brown;
-    float: left;
 }
 
 .first-block h2{
@@ -198,7 +198,6 @@ main{
 
 .second-block{
     padding-top: 170px;
-    float: left;
 }
 
 .second-block img{
@@ -219,6 +218,7 @@ main{
 .second-block .btn-white{
     display: table;
     margin-top: 10px;
+    border: 1px solid black;
 }
 
 /*  End Second block
@@ -226,7 +226,7 @@ main{
 
 .third-block{
     margin-top: 100px;
-    float: left;
+    
 }
 
 .third-block h2{
@@ -241,6 +241,25 @@ main{
     padding-bottom: 30px;
 }
 
+/**/
+
+.fourth-block{
+    float: left;
+    width: 100%;
+}
+
+.fourth-block-head{
+    padding-top: 50px;
+}
+
+.fourth-block-head h2{
+    padding-bottom: 20px;
+}
+
+.fourth-block-head a{
+    padding-bottom: 30px;
+    display: table;
+}
 
 .fourth-block img{
     position:relative;
@@ -249,30 +268,133 @@ main{
     width: 50%;
     height: auto;
     transform: translate(-50%, -50%);
+    filter: invert(100%);
 }
 
 .left-photo{
     width: 15%;
-    height: 145px;
+    height: 200px;
     float: left;
-    background-color: green;
+    
 }
 
 .right-photo{
     float: left;
     width: 15%;
-    height: 145px;
+    height: 200px;
     background-color: red;
     position:relative;
     left: 40%;
 }
 
-.scritta{
-    float: inline-start;
+.active{
+    border: #d1e9cd solid 15px;
+    box-sizing: border-box;
 }
 
-.fourth-block{
+#team1{
+   background-color: #a2d39b;
+}  
+
+#team2{
+   background-color: #61082c;
+}
+
+#team3{
+   background-color: #d5021f;
+}
+
+#team4{
+   background-color: #b4d0e7;
+}
+
+#team5{
+   background-color: #1d93ce;
+}
+
+#team6{
+   background-color: #f91c1d;
+}
+
+#team7{
+   background-color: #0d2481;
+}
+
+#team8{
+   background-color: #fed830;
+}
+
+
+.fourth-block .title{
     float: left;
-    background-color: yellow;
+    width: 50%;
+    padding-top: 30px;
+    color: #61082c;
+    font-weight: bold;
+    font-size: 40px;
 }
 
+.fourth-block .btn-white{
+    margin-top: 30px;
+    float: left;
+}
+
+#background-lightblue{
+    background-color: #b4d0e7;
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+/*End block 4
+  Start Questions section*/
+
+.question{
+    width: 60%;
+    padding-top: 150px;
+    font-weight: bold;
+}
+
+.question .raw{
+    border-bottom: 1px solid grey;
+    padding: 20px 0;
+}
+
+.question h2{
+    padding-bottom: 20px;
+}
+
+.question p{
+    font-size: 10px;
+    color: grey;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+/*
+.arrow-down{
+    position: relative;
+    float: right;
+    padding: 3px;
+    top: 10%;
+}
+*/ 
+
+/*Start Footer*/
+
+footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 60px 10%;
+    
+}
+
+footer ul{
+    float: left;
+    width: 20%;
+}
+
+footer li{
+    list-style: none;
+}
